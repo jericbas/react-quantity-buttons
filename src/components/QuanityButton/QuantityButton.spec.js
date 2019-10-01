@@ -4,19 +4,19 @@
 import * as React from 'react';
 import { shallow, mount } from 'enzyme';
 
-import Button from './Button';
-import styles from './Button.css';
+import QuantityButton from './QuantityButton';
+import styles from './QuantityButton.css';
 
-describe('<Button>', () => {
+describe('<QuantityButton>', () => {
   it('should render the default markup', () => {
-    const wrapper = shallow(<Button>test</Button>);
+    const wrapper = shallow(<QuantityButton />);
 
     expect(wrapper).toHaveDisplayName('button');
     expect(wrapper).toHaveText('test');
   });
 
   it('should render the default classes', () => {
-    const wrapper = shallow(<Button>test</Button>);
+    const wrapper = shallow(<QuantityButton />);
 
     expect(wrapper).toHaveClassName(styles.root);
     expect(wrapper).toHaveClassName(styles.primary);
@@ -25,7 +25,7 @@ describe('<Button>', () => {
   // Which is equivalent to:
 
   it('should render the default markup and classes [snapshot]', () => {
-    const wrapper = shallow(<Button>test</Button>);
+    const wrapper = shallow(<QuantityButton />);
 
     expect(wrapper).toMatchSnapshot();
   });
@@ -34,7 +34,7 @@ describe('<Button>', () => {
 
   it('should trigger click event handlers', () => {
     const spy = jest.fn();
-    const wrapper = mount(<Button onClick={spy}>test</Button>);
+    const wrapper = mount(<QuantityButton onClick={spy} />);
 
     wrapper.simulate('click');
 

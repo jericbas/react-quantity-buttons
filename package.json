@@ -53,7 +53,9 @@
     "prepare": "run-s build",
     "prepublishOnly": "run-s validate test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "use-debounce": "^3.0.1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",

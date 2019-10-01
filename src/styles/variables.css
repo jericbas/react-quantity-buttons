@@ -1,6 +1,12 @@
 :root {
-  --color-primary: green;
-  --color-secondary: blue;
-  --color-danger: red;
-  --color-gray: #ccc;
+  /* background */
+  --bg-color-default: transparent;
+  --bg-color-selected: #005fb2;
+
+  /* color */
+  --color-default: #0070d2;
+  --color-selected: #fff;
+
+  /* border-color */
+  --bd-c-default: #dddbda;
 }

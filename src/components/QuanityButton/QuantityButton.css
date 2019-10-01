@@ -1,0 +1,35 @@
+.root {
+  padding: 1rem 2rem;
+  border: 1px solid;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.quantityButton {
+  display: inline-block;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  line-height: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: 0.4s;
+  border-color: var(--bd-c-default);
+  cursor: pointer;
+}
+.quantityButton:focus {
+  outline: 0;
+}
+.default {
+  background: var(--bg-color-default);
+  color: var(--color-default);
+  border-color: var(--bd-c-default);
+}
+
+.selected {
+  background: var(--bg-color-selected);
+  color: var(--color-selected);
+}
