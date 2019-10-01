@@ -1,6 +1,0 @@
-// @flow
-
-declare module.exports: $ReadOnly<{
-  root: string,
-  title: string,
-}>;
