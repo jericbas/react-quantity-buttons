@@ -1,5 +1,5 @@
 {
-  "name": "react-quantity-selector",
+  "name": "react-quantity-buttons",
   "version": "0.1.0",
   "description": "React Quantity Selector",
   "keywords": [
@@ -16,11 +16,11 @@
     "name": "Jeric Bas",
     "url": "https://github.com/jericbas"
   },
-  "homepage": "https://github.com/jericbas/react-quantity-selector",
-  "bugs": "https://github.com/jericbas/react-quantity-selector/issues",
+  "homepage": "https://github.com/jericbas/react-quantity-buttons",
+  "bugs": "https://github.com/jericbas/react-quantity-buttons/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jericbas/react-quantity-selector.git"
+    "url": "git://github.com/jericbas/react-quantity-buttons.git"
   },
   "license": "Unlicense",
   "files": [
@@ -28,9 +28,9 @@
     "src/**/!(*.spec|*.story).(js|css)",
     "README.md"
   ],
-  "main": "dist/react-quantity-selector.cjs.js",
-  "module": "dist/react-quantity-selector.esm.js",
-  "browser": "dist/react-quantity-selector.umd.js",
+  "main": "dist/react-quantity-buttons.cjs.js",
+  "module": "dist/react-quantity-buttons.esm.js",
+  "browser": "dist/react-quantity-buttons.umd.js",
   "sideEffects": [
     "*.css"
   ],
@@ -46,7 +46,7 @@
     "playroom": "playroom start",
     "format": "prettier --write ./src/**/*",
     "clean": "rm -r dist/ coverage/ reports/ ",
-    "build:css": "cat src/styles/variables.css dist/react-quantity-selector.css | sponge dist/react-quantity-selector.css",
+    "build:css": "cat src/styles/variables.css dist/react-quantity-buttons.css | sponge dist/react-quantity-buttons.css",
     "build": "rollup -c",
     "prebuild": "rm -rf dist/ && mkdir dist/",
     "postbuild": "run-s build:css",
