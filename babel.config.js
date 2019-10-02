@@ -9,10 +9,7 @@
  *
  * [React]
  * https://babeljs.io/docs/en/babel-preset-react
- *
- * [Flow]
- * https://babeljs.io/docs/en/babel-preset-flow
- *
+
  * [Other]
  * https://babeljs.io/docs/en/babel-plugin-transform-runtime
  *
@@ -36,11 +33,7 @@ module.exports = api => {
     version: '7.5.0',
   };
 
-  let presets = [
-    ['@babel/preset-env', envOpts],
-    '@babel/preset-react',
-    '@babel/preset-flow',
-  ];
+  let presets = [['@babel/preset-env', envOpts], '@babel/preset-react'];
 
   let plugins = [
     ['@babel/plugin-transform-runtime', runtimeOps],

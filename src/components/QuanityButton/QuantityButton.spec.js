@@ -1,4 +1,3 @@
-/* @flow */
 /* eslint css-modules/no-unused-class: [2, { markAsUsed: ['secondary', 'danger'] }] */
 
 import * as React from 'react';
