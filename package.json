@@ -22,7 +22,7 @@
     "type": "git",
     "url": "git://github.com/jericbas/react-quantity-buttons.git"
   },
-  "license": "Unlicense",
+  "license": "MIT",
   "files": [
     "dist",
     "src/**/!(*.spec|*.story).(js|css)",
