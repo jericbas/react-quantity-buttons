@@ -6,7 +6,7 @@
 
 ## 📝 About This Project
 
-> ✨ **Modernizing this as part of learning** — It's been 7 years since I last updated this repo, so I'm bringing it up to modern standards. This roadmap is my guide to upgrading the build tooling, converting to TypeScript + functional components, and publishing a proper package.
+> ✨ **Modernizing this as part of learning** — It's been 7 years since I last updated this repo, so I'm bringing it up to modern standards. This roadmap is my guide to upgrading the build tooling (Vite + Bun), converting to TypeScript + functional components, and publishing a proper package.
 >
 > 🗓️ **Started:** March 2026
 
@@ -17,7 +17,8 @@
 > Here is a step-by-step ordered to-do list to modernize and publish the updated package, structured from initial setup to final release:
 
 ### 🔧 Phase 1: Project Setup & Tooling
-- [ ] Initialize a modern library bundler (e.g., Vite in Library Mode, tsup, or Rollup) to replace the existing build setup.
+- [ ] Switch package manager from Yarn/npm to **Bun** 🥟
+- [ ] Initialize **Vite** in Library Mode to replace the existing build setup.
 - [ ] Install and configure TypeScript (`tsconfig.json`) to allow writing the component with strict type safety.
 - [ ] Set up ESLint and Prettier to enforce consistent code formatting.
 - [ ] (Optional) Add Husky and lint-staged to run formatting and linting automatically before every commit.
