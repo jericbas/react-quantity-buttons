@@ -4,6 +4,12 @@
 
 ---
 
+## 📝 About This Project
+
+**Modernizing this as part of learning** — It's been 7 years since I last updated this repo, so I'm bringing it up to modern standards. This roadmap is my guide to upgrading the build tooling, converting to TypeScript + functional components, and publishing a proper package.
+
+---
+
 ## 📋 TODO / Modernization Roadmap
 
 > Here is a step-by-step ordered to-do list to modernize and publish the updated package, structured from initial setup to final release:
